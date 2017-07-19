@@ -24,7 +24,8 @@ public interface EventApplication {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//String url="http://sw.skhu.ac.kr/";
-		String url="https://devdogs.kr/";
+		//String url="https://devdogs.kr/";
+		String url="http://whdms705.github.io/";
 		
 	    for(CallbackEvent driver:drivers){
 	    	
