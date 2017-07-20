@@ -5,14 +5,15 @@ import java.util.List;
 
 import org.gradle.selenium.chrome.ChromeDriverSet;
 import org.gradle.selenium.functions.element.FindElementCase;
+import org.gradle.selenium.ie.IeDriverSet;
 
 
 public interface EventApplication {
 	
 	// 브라우저별 세팅 리스트
 	static List<CallbackEvent> drivers = new ArrayList<CallbackEvent>(){ {
-		
-			add(new ChromeDriverSet());
+		    add(new ChromeDriverSet());
+			add(new IeDriverSet());
 		
 		
 	} };
